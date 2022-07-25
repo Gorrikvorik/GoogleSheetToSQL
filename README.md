@@ -4,6 +4,7 @@ Sends data from google tables to the SQL database, allows you to monitor data vi
 Для корректной работы  скрипта Script.py необходимо:
 
 1)Подключить необходимые модули
+ воспользоваться файлом requirements.txt и командой pip install -r requirements.txt
 
 2)в функции send_telegram: 
  а)Прописать токен для бота
