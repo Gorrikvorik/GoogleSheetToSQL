@@ -1,7 +1,7 @@
 # GoogleSheetsToSQL
 Sends data from google tables to the SQL database, allows you to monitor data via telegram
 
-Для корректной работы  скрипта необходимо:
+Для корректной работы  скрипта Script.py необходимо:
 
 1)Подключить необходимые модули
 
