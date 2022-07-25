@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfcfa220-423d-4c1a-a0ca-ed65a78d4800" name="Changes" comment="" />
+    <list default="true" id="dfcfa220-423d-4c1a-a0ca-ed65a78d4800" name="Changes" comment="name file changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrpirt.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrpirt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.Perforce"
   }
 }]]></component>
   <component name="RunManager" selected="Python.Scrpirt">
@@ -180,8 +184,16 @@
       <workItem from="1658499052416" duration="11552000" />
       <workItem from="1658728842919" duration="4292000" />
       <workItem from="1658733297802" duration="90000" />
-      <workItem from="1658733896020" duration="897000" />
+      <workItem from="1658733896020" duration="4199000" />
     </task>
+    <task id="LOCAL-00001" summary="name file changed">
+      <created>1658734893425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658734893425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,11 +210,15 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="name file changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="name file changed" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/spreadsheet.py</url>
+          <url>file://$PROJECT_DIR$/Scrpirt.py</url>
           <line>135</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -212,10 +228,10 @@
       <configuration name="PythonConfigurationType">
         <watch expression="x" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/spreadsheet.py" line="57">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/Scrpirt.py" line="57">
         <watch expression="today" />
       </inline-watch>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/spreadsheet.py" line="57">
+      <inline-watch fileUrl="file://$PROJECT_DIR$/Scrpirt.py" line="57">
         <watch expression="bd_dt" />
       </inline-watch>
     </watches-manager>

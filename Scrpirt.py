@@ -1,3 +1,13 @@
+import time
+from sqlalchemy import create_engine  # для работы с функцией преобразования данных в SQL
+import psycopg2  # подключаем Postgres
+import pandas as pd  # для работы с данными
+import gspread  # работа google sheets
+from oauth2client.service_account import ServiceAccountCredentials as sac  # авторизация в google
+import requests  # обращаемся к сайту цб рф и телеграм
+import xml.etree.ElementTree as ET  # работаем с полученной информацией
+from datetime import datetime  # для проверки дат
+
 """
 Исрафилов Руслан,
 выполнение тестового задания,
@@ -9,16 +19,6 @@
 # константы
 TABLE_NAME = 'TEST'  # имя  Google таблицы
 HOLD_SCRIPT = 15  # время в сек  для обновления БД
-
-import time
-from sqlalchemy import create_engine  # для работы с функцией преобразования данных в SQL
-import psycopg2  # подключаем Postgres
-import pandas as pd  # для работы с данными
-import gspread  # работа google sheets
-from oauth2client.service_account import ServiceAccountCredentials as sac  # авторизация в google
-import requests  # обращаемся к сайту цб рф и телеграм
-import xml.etree.ElementTree as ET  # работаем с полученной информацией
-from datetime import datetime  # для проверки дат
 
 
 # стандартный бот для отправки сообщения в телеграм
@@ -34,7 +34,7 @@ def send_telegram(text: str):
         "text": text
     })
 
-    if r.status_code != 200: #проверка на статус код, при != 200, поднимаем ошибку
+    if r.status_code != 200:  # проверка на статус код, при != 200, поднимаем ошибку
         raise Exception("post_text error")
 
 
